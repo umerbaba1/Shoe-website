@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.sneaker-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sneaker-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.quantity-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.quantity-controls button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#quantity {
+    width: 40px;
+    text-align: center;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.add-to-cart {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+#pop-up{
+    position: absolute;
+    top: 0;
+    right: 12px;
+    width: 400px;
+    height: 50px;
+    border-radius: 12px;
+}
+#pop-up p{
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+/* Confirmation Container Styles */
+.confirmation-container {
+    background-color: #f1f1f1; /* Light grey background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-container h1 {
+    color: #28a745; /* Green for confirmation message */
+    font-size: 32px;
+}
+
+.confirmation-container p {
+    color: #333;
+    font-size: 18px;
+}
+
+/* Sneaker Confirmation Styles */
+.sneaker-confirmation h2 {
+    color: #007BFF; /* Blue for the sneaker order text */
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.ordered-sneaker-image {
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* Return Home Button Styles */
+.return-home {
+    margin-top: 20px;
+}
+
+#homeButton {
+    background-color: #007BFF; /* Blue background */
+    color: white;              /* White text */
+    border: none;              /* No border */
+    padding: 10px 20px;        /* Padding for button */
+    border-radius: 5px;        /* Rounded corners */
+    cursor: pointer;           /* Pointer cursor on hover */
+    font-size: 16px;           /* Font size */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#homeButton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05);    /* Slightly enlarge on hover */
+}
+
+#homeButton:active {
+    background-color: #003e7e; /* Even darker blue when pressed */
+    transform: scale(0.95);    /* Slightly shrink when pressed */
+}
